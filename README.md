@@ -159,4 +159,35 @@ File ``index.html`` berisi struktur utama website menggunakan Bootstrap 5.3.3 da
 ## Screenshot 2 — Tampilan awal website di browser
 <img width="1903" height="894" alt="image" src="https://github.com/user-attachments/assets/41ae6536-623f-42aa-a4cb-108ebaee970d" />
 
+## Langkah 3 — File style.css
+
+## Kode:
+
+    body {
+    background-color: #0d1117;
+    }
+
+    .card {
+    border-radius: 15px;
+    border: 1px solid #30363d;
+    }
+
+    .text-info {
+    color: #00bfff !important;
+    }
+
+    .text-success {
+    color: #00ff87 !important;
+    }
+
+    .btn-primary {
+    background: linear-gradient(90deg, #007bff, #0066ff);
+    border: none;
+    font-weight: 600;
+    }
+
+    .btn-primary:hover {
+    background: linear-gradient(90deg, #0066ff, #004de6);
+    }
+
 
