@@ -31,7 +31,7 @@ style.css → file CSS tambahan untuk mempercantik tampilan.
 
 script.js → berisi logika untuk menampilkan grafik menggunakan Chart.js.
 
-Screenshot 1 — Struktur folder di VSCode
+## Screenshot 1 — Struktur folder di VSCode
 <img width="196" height="100" alt="image" src="https://github.com/user-attachments/assets/3e2a580e-87ce-4757-80fb-81215ccc8420" />
 
 ## Langkah 2 — Membuat File index.html
@@ -155,4 +155,8 @@ File ``index.html`` berisi struktur utama website menggunakan Bootstrap 5.3.3 da
 
     </body>
     </html>
+
+## Screenshot 2 — Tampilan awal website di browser
+<img width="1903" height="894" alt="image" src="https://github.com/user-attachments/assets/41ae6536-623f-42aa-a4cb-108ebaee970d" />
+
 
