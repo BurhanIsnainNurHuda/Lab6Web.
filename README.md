@@ -30,3 +30,7 @@ index.html → file utama untuk struktur dan konten website.
 style.css → file CSS tambahan untuk mempercantik tampilan.
 
 script.js → berisi logika untuk menampilkan grafik menggunakan Chart.js.
+
+Screenshot 1 — Struktur folder di VSCode
+<img width="196" height="100" alt="image" src="https://github.com/user-attachments/assets/3e2a580e-87ce-4757-80fb-81215ccc8420" />
+
