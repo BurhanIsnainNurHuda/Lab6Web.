@@ -40,3 +40,119 @@ File ``index.html`` berisi struktur utama website menggunakan Bootstrap 5.3.3 da
 
 ## Kode:
 
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoVerse - Praktikum 6 Web Framework</title>
+  <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="bg-dark text-light">
+
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-info" href="#">💰 CryptoVerse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tips</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+     </nav>
+
+  <!-- Container Utama -->
+    <div class="container my-5">
+    <div class="row g-4">
+      
+      <!-- Trending Coins -->
+      <div class="col-md-4">
+        <div class="card bg-secondary p-3 shadow-lg">
+          <h4 class="text-info mb-3">🔥 Trending Coins</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-transparent text-white">1. Bitcoin (BTC) <span class="text-success fw-bold">$115,548.60</span></li>
+            <li class="list-group-item bg-transparent text-white">2. Ethereum (ETH) <span class="text-success fw-bold">$4,229.73</span></li>
+            <li class="list-group-item bg-transparent text-white">3. Binance Coin (BNB) <span class="text-success fw-bold">$1,153.23</span></li>
+            <li class="list-group-item bg-transparent text-white">4. Ripple (XRP) <span class="text-success fw-bold">$2.71</span></li>
+            <li class="list-group-item bg-transparent text-white">5. Solana (SOL) <span class="text-success fw-bold">$209.61</span></li>
+            <li class="list-group-item bg-transparent text-white">6. Dogecoin (DOGE) <span class="text-success fw-bold">$0.2161</span></li>
+            <li class="list-group-item bg-transparent text-white">7. TRON (TRX) <span class="text-success fw-bold">$0.3412</span></li>
+            <li class="list-group-item bg-transparent text-white">8. Cardano (ADA) <span class="text-success fw-bold">$0.6972</span></li>
+            <li class="list-group-item bg-transparent text-white">9. Hype (HYPE) <span class="text-success fw-bold">$49.19</span></li>
+          </ul>
+        </div>
+
+        <!-- Crypto Tips -->
+        <div class="card bg-secondary mt-4 p-3 shadow-lg">
+          <h4 class="text-warning mb-3">💡 Crypto Tips</h4>
+          <ul class="list-group list-group-flush text-white">
+            <li class="list-group-item bg-transparent">1️⃣ <b>DCA (Dollar Cost Averaging):</b> Investasi rutin tiap minggu/bulan tanpa peduli harga naik-turun.</li>
+            <li class="list-group-item bg-transparent">2️⃣ <b>FOMO:</b> Hindari beli karena ikut-ikutan tren, bisa nyangkut di harga puncak.</li>
+            <li class="list-group-item bg-transparent">3️⃣ <b>DYOR:</b> Lakukan riset sendiri sebelum membeli aset baru.</li>
+            <li class="list-group-item bg-transparent">4️⃣ <b>HODL:</b> Tahan aset berkualitas saat pasar turun, jangan panik.</li>
+            <li class="list-group-item bg-transparent">5️⃣ <b>Diversifikasi:</b> Jangan taruh semua modal di satu koin, sebar risiko.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Apa itu Cryptocurrency -->
+      <div class="col-md-8">
+        <div class="card bg-secondary p-4 shadow-lg">
+          <h3 class="text-info mb-3">🚀 Apa itu Cryptocurrency?</h3>
+          <p class="text-white">
+            Cryptocurrency adalah bentuk mata uang digital yang menggunakan teknologi blockchain untuk memastikan keamanan dan transparansi setiap transaksi. Nilainya sangat dinamis dan bisa berubah karena faktor makroekonomi seperti inflasi global, pergerakan nilai dolar, kebijakan bank sentral, hingga kondisi geopolitik.
+          </p>
+          <p class="text-white">
+            Selain itu, faktor mikroekonomi seperti adopsi pengguna, kepercayaan komunitas, inovasi teknologi, serta perkembangan ekosistem tiap proyek juga berperan besar dalam menentukan nilai pasar crypto.
+          </p>
+          <button class="btn btn-primary mt-2">Pelajari Lebih Lanjut</button>
+        </div>
+
+        <!-- Grafik Bitcoin dan Ethereum -->
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="card bg-secondary p-3 shadow-lg">
+              <h5 class="text-info">📈 Bitcoin (BTC)</h5>
+              <p class="text-success fw-bold">$115,548.60</p>
+              <p class="text-muted">Total Market Cap: $2.1 Triliun</p>
+              <canvas id="btcChart"></canvas>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card bg-secondary p-3 shadow-lg">
+              <h5 class="text-info">🪙 Ethereum (ETH)</h5>
+              <p class="text-success fw-bold">$4,229.73</p>
+              <p class="text-muted">Total Market Cap: $700 Miliar</p>
+              <canvas id="ethChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <!-- Footer -->
+    <footer class="text-center py-3 mt-5 bg-secondary text-light">
+    <small>© 2025 CryptoVerse | Dibuat untuk Praktikum Web Framework</small>
+    </footer>
+
+  <!-- Script -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+    </html>
+
