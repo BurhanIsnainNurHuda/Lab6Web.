@@ -17,11 +17,11 @@ Tugas Pemograman Web1 Pertemuan 6
 
    ## Langkah 1 — Persiapan Project
 ## Struktur Folder:
-Lab6Web/
-│
-├── index.html
-├── style.css
-└── script.js
+Lab6Web
+
+1. index.html
+2.  style.css
+3.   script.js
 
  ## Penjelasan:
 
