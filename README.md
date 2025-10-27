@@ -190,4 +190,14 @@ File ``index.html`` berisi struktur utama website menggunakan Bootstrap 5.3.3 da
     background: linear-gradient(90deg, #0066ff, #004de6);
     }
 
+## Penjelasan:
+
+1. Warna utama gelap (#0d1117) untuk nuansa crypto modern.
+
+2. Card dan tombol diberi efek gradient agar tidak monoton.
+
+3. Warna teks diatur agar kontras dan nyaman dibaca di dark mode.
+
+## Screenshot 3 — Tampilan card dan button setelah styling
+<img width="1919" height="896" alt="image" src="https://github.com/user-attachments/assets/baf28819-6026-4ab4-8b5b-2c29026d83d3" />
 
