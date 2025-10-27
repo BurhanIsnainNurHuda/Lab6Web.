@@ -257,6 +257,11 @@ Buka:
 
 Upload ``index.html`` → pastikan tidak ada error struktur.
 
-📸 Screenshot 5 — Hasil validasi sukses
+## Screenshot 5 — Hasil validasi sukses
+
+<img width="1889" height="946" alt="image" src="https://github.com/user-attachments/assets/953cfd94-0664-45a8-a235-1080fc72c3b4" />
+<img width="1890" height="946" alt="image" src="https://github.com/user-attachments/assets/c9544d7d-ef3b-456f-8803-a4abff0914d1" />
+
+
 
 
