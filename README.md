@@ -250,4 +250,13 @@ File ``index.html`` berisi struktur utama website menggunakan Bootstrap 5.3.3 da
 ## Screenshot 4 — Tampilan grafik BTC dan ETH
 <img width="1917" height="900" alt="image" src="https://github.com/user-attachments/assets/3cb0c782-2eec-4a21-b943-578cda210528" />
 
+## Langkah 5 — Validasi HTML
+
+Buka:
+`` https://validator.w3.org/``
+
+Upload ``index.html`` → pastikan tidak ada error struktur.
+
+📸 Screenshot 5 — Hasil validasi sukses
+
 
