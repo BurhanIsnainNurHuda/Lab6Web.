@@ -1,6 +1,6 @@
 # Lab6Web.
 
-Tugas Pemograman Web1 Pertemuan 6
+Tugas Pemograman Web1 Pertemuan 7
 
     Nama: Burhan Isnain Nur Huda
     NIM: 312410226
@@ -261,6 +261,34 @@ Upload ``index.html`` → pastikan tidak ada error struktur.
 
 <img width="1889" height="946" alt="image" src="https://github.com/user-attachments/assets/953cfd94-0664-45a8-a235-1080fc72c3b4" />
 <img width="1890" height="946" alt="image" src="https://github.com/user-attachments/assets/c9544d7d-ef3b-456f-8803-a4abff0914d1" />
+
+## Hasil Akhir Website
+
+## Website CryptoVerse berhasil dibuat dengan tema dark mode futuristik, lengkap dengan:
+
+1. Daftar Trending Coins yang dinamis.
+
+2. Crypto Tips edukatif untuk investor baru.
+
+3. Penjelasan tentang Cryptocurrency.
+
+4. Grafik harga Bitcoin dan Ethereum interaktif.
+
+## Screenshot 7 — Hasil akhir website CryptoVerse
+
+## Kesimpulan
+
+Pada praktikum ini saya telah:
+
+1. Memahami konsep dan penerapan Bootstrap dalam layout website.
+
+2. Membuat tampilan modern dan responsif bertema CryptoVerse.
+
+3. Menerapkan komponen UI seperti card, navbar, dan button.
+
+4. Menggunakan Chart.js untuk menampilkan data visual interaktif.
+
+5. Melakukan validasi HTML dan upload ke GitHub dengan struktur rapi.
 
 
 
