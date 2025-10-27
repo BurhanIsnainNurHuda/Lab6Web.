@@ -275,6 +275,8 @@ Upload ``index.html`` → pastikan tidak ada error struktur.
 4. Grafik harga Bitcoin dan Ethereum interaktif.
 
 ## Screenshot 7 — Hasil akhir website CryptoVerse
+<img width="1027" height="884" alt="image" src="https://github.com/user-attachments/assets/38100676-0c71-4811-873c-d05936f104d0" />
+
 
 ## Kesimpulan
 
@@ -289,6 +291,9 @@ Pada praktikum ini saya telah:
 4. Menggunakan Chart.js untuk menampilkan data visual interaktif.
 
 5. Melakukan validasi HTML dan upload ke GitHub dengan struktur rapi.
+
+<img width="1027" height="884" alt="image" src="https://github.com/user-attachments/assets/58dcd20d-3dbb-4316-8194-2600803f95bb" />
+
 
 
 
