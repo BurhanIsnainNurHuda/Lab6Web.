@@ -201,3 +201,53 @@ File ``index.html`` berisi struktur utama website menggunakan Bootstrap 5.3.3 da
 ## Screenshot 3 — Tampilan card dan button setelah styling
 <img width="1919" height="896" alt="image" src="https://github.com/user-attachments/assets/baf28819-6026-4ab4-8b5b-2c29026d83d3" />
 
+## Langkah 4 — File script.js
+
+## Kode:
+
+    // Grafik BTC
+    const ctxBTC = document.getElementById('btcChart').getContext('2d');
+    new Chart(ctxBTC, {
+    type: 'line',
+     data: {
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul'],
+    datasets: [{
+      label: 'BTC Price',
+      data: [95000, 100000, 110000, 120000, 118000, 115000, 115548],
+      borderColor: '#ff9900',
+      borderWidth: 2,
+      fill: false
+    }]
+    },
+    options: { scales: { y: { beginAtZero: false } } }
+    });
+
+    // Grafik ETH
+    const ctxETH = document.getElementById('ethChart').getContext('2d');
+    new Chart(ctxETH, {
+    type: 'line',
+    data: {
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul'],
+    datasets: [{
+      label: 'ETH Price',
+      data: [3500, 3700, 4000, 4300, 4200, 4100, 4229],
+      borderColor: '#00bfff',
+      borderWidth: 2,
+      fill: false
+    }]
+    },
+    options: { scales: { y: { beginAtZero: false } } }
+    });
+
+## Penjelasan:
+
+1. Menggunakan Chart.js untuk menampilkan grafik harga BTC dan ETH.
+
+2. Data disimulasikan berdasarkan pergerakan harga bulanan.
+
+3. Warna grafik disesuaikan dengan tema crypto: oranye untuk BTC dan biru untuk ETH.
+
+## Screenshot 4 — Tampilan grafik BTC dan ETH
+<img width="1917" height="900" alt="image" src="https://github.com/user-attachments/assets/3cb0c782-2eec-4a21-b943-578cda210528" />
+
+
